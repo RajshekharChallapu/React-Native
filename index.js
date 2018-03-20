@@ -5,7 +5,6 @@ import Header from './src/components/header';
 
 
 // Create a Component
-
 const App = () => (
   //if no text intended to write in import component ..that must be self closing ...eslint
     <Header/>
