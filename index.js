@@ -1,4 +1,6 @@
 // Import a library to help create a Component
+// Disables eslint error messages about line endings.
+/*eslint linebreak-style: ["error", "windows"]*/
 import React from 'react';
 import { AppRegistry, View } from 'react-native';
 import Header from './src/components/header';

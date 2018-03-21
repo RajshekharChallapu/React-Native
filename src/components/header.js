@@ -4,6 +4,7 @@ import { Text, View } from 'react-native';
 
 
 //Make a Component
+//props are used to communicate btw  parent to child component..it doesn't have access to state component
 const Header = (props) =>{
   const { textStyle, viewStyle }= styles;
 
