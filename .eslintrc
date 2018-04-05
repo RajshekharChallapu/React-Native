@@ -1,5 +1,10 @@
 
 {
-"extends": "rallycoding"
-
+"extends": "rallycoding",
+"env": {
+"browser": true
+},
+"globals": {
+"fetch": true
+}
 }

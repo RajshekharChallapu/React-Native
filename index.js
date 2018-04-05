@@ -1,3 +1,4 @@
+
 // Import a library to help create a Component
 // Disables eslint error messages about line endings.
 /*eslint linebreak-style: ["error", "windows"]*/
@@ -12,7 +13,7 @@ const App = () => (
   //if no text intended to write in import component ..that must be self closing ...eslint
 
 <View>
-    <Header headerText= {'Albums'}/>
+    <Header headerText = {'Albums'}/>
   <AlbumList />
 </View>
 );
